@@ -72,7 +72,7 @@ Most Ruby web frameworks and testing frameworks are supported.}
     "lib/webrat/core_extensions/deprecate.rb",
     "lib/webrat/core_extensions/detect_mapped.rb",
     "lib/webrat/core_extensions/meta_class.rb",
-    "lib/webrat/core_extensions/nil_to_param.rb",
+    "lib/webrat/core_extensions/nil_to_query_string.rb",
     "lib/webrat/core_extensions/tcp_socket.rb",
     "lib/webrat/integrations/merb.rb",
     "lib/webrat/integrations/rails.rb",
