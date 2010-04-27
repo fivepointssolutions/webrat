@@ -44,6 +44,8 @@ module Webrat
     def absolute_href
       if href =~ /^\?/
         "#{@session.current_url}#{href}"
+      elsif href =~ %r{://}
+        href
       elsif href !~ %r{^https?://} && (href !~ /^\//)
         "#{@session.current_url}/#{href}"
       else
